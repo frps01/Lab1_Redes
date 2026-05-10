@@ -141,9 +141,9 @@ def main():
     print("FASE 3: Firma digital y Sign-then-Encrypt")
     print("=" * 60)
 
-    pass_a = password_de("MiembroA", "Moises Gonzalez", "Comandante")
-    pass_b = password_de("MiembroB", "Elena Vargas",    "Estratega")
-    pass_c = password_de("MiembroC", "Dimitri Volkov",  "Ingeniero")
+    pass_a = password_de("MiembroA", "Moises Villarroel", "202373016-5")
+    pass_b = password_de("MiembroB", "Francisco Pino",    "202373051-3")
+    pass_c = password_de("MiembroC", "Rayen Farias",  "202373036-6")
 
     # --- Caso 1: A le envía un mensaje legítimo a B ---
     print("\n[Caso 1] Mensaje legítimo A -> B")

@@ -128,10 +128,10 @@ def main():
     print("=" * 60)
 
     miembros = [
-        ("MiembroA", "Moises Gonzalez", "Comandante"),
-        ("MiembroB", "Elena Vargas",    "Estratega"),
-        ("MiembroC", "Dimitri Volkov",  "Ingeniero"),
-        ("MiembroD", "Sofia Reyes",     "Operador"),
+        ("MiembroA", "Moises Villarroel", "202373016-5"),
+        ("MiembroB", "Francisco Pino",    "202373051-3"),
+        ("MiembroC", "Rayen Farias",  "202373075-0"),
+        ("MiembroD", "Gerardo Carreño",     "202273036-6"),
     ]
     for miembro, nombre, rol in miembros:
         crear_identidad(miembro, nombre, rol)

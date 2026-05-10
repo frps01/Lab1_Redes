@@ -196,7 +196,7 @@ def main():
 
     # Para verificar el round-trip regeneramos la password de MiembroB
     salt_b = cargar_salt("MiembroB")
-    pass_b = derivar_clave("Elena Vargas", "Estratega", salt_b)
+    pass_b = derivar_clave("Francisco Pino", "202373051-3", salt_b)
     descifrar_hibrido(
         archivo_in="output/silo_hybrid_for_B.bin",
         archivo_out="output/silo_recuperado.bmp",
